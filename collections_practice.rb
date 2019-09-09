@@ -11,8 +11,12 @@ def sort_array_char_count strings_arr
 end
 
 def swap_elements array, from, to
+
+end
+
+def swap_elements_from_to array, index, destination_index
   #modifying original array since we have a ref
-  temp = array[from]
-  array[from] = array[to]
-  array[to] = temp
+  temp = array[index]
+  array[index] = array[destination_index]
+  array[destination_index] = temp
 end
