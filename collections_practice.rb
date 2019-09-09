@@ -11,7 +11,7 @@ def sort_array_char_count strings_arr
 end
 
 def swap_elements array
-  swap_elements_from_to array, 2, 3
+  swap_elements_from_to array 2, 3
 end
 
 def swap_elements_from_to array, index, destination_index
