@@ -48,4 +48,5 @@ def add_s array
       array[index] += "s"
     end
   end
+  array
 end
