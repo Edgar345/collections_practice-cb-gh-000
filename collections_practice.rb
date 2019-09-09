@@ -10,7 +10,7 @@ def sort_array_char_count strings_arr
   strings_arr.sort { |a, b| a.length <=> b.length }
 end
 
-def swap_elements array, from, to
+def swap_elements array
   swap_elements_from_to array, 2, 3
 end
 
