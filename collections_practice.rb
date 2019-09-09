@@ -7,5 +7,5 @@ def sort_array_desc numbers
 end
 
 def sort_array_char_count strings_arr
-  strings_arr.sort { |a, b| a <=> b}
+  strings_arr.sort { |a, b| a.length <=> b.length}
 end
