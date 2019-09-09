@@ -33,3 +33,7 @@ def kesha_maker array
   end
   array
 end
+
+def find_a array 
+  array.find_all {|string| string[0] == "a"}
+end
